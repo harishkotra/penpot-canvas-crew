@@ -1,0 +1,43 @@
+# Generated run artifacts. Every run writes specs, canvas code, PNGs, critiques
+# and an HTML report here. Regenerate any of it with `npm run demo` or a real run.
+runs/
+
+# Dependencies. There are none, but if a fork adds one, do not commit it.
+node_modules/
+
+# Secrets. `.env` holds your Penpot MCP token and your inference API key.
+# The template IS committed, so negate it explicitly.
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.cache/
+.eslintcache
+coverage/
+
+# Editor and OS noise
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local scratch files
+tmp/
+*.tmp
+
+content/

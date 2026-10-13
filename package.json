@@ -1,0 +1,27 @@
+{
+  "name": "penpot-canvas-crew",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A crew of AI agents that argue over one Penpot canvas until the design is good.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node src/cli.js check",
+    "crew": "node src/cli.js run",
+    "report": "node src/cli.js report",
+    "test": "node --test \"test/*.test.mjs\"",
+    "demo": "node scripts/demo-offline.mjs"
+  },
+  "keywords": [
+    "penpot",
+    "penpot-mcp",
+    "multi-agent",
+    "design-agent",
+    "llm"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
